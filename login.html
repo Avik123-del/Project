@@ -1,0 +1,187 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <title>Login</title>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body> 
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand big" href="#">
+                    <!-- <img src="logo.jpg" class="logo" alt=""> -->
+                    RKMVM
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav nav-pills">
+                    <li class="nav-item active px-4 py-2">
+                    <a class="nav-link hover-effect px-3 big" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item px-4 py-2">
+                    <a class="nav-link hover-effect px-3 big" href="#">About</a>
+                    </li>
+                    <li class="nav-item px-4 py-2">
+                    <a class="nav-link hover-effect px-3 big" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item py-2 pl-lg-5 ml-lg-5"><a href="#" class="nav-link btn btn-outline-info big">Log In</a></li>
+                    <li class="nav-item py-2 ml-lg-4"><a href="#" class="nav-link btn btn-outline-success big">Sign Up</a></li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container login-form">
+           <div class="row align-items-center justify-content-center ">
+               <div class="col-6">
+                    <h3>
+                        Faculty Guide Application 
+                    </h3>
+                    <h5>One simple application for all your academical work</h5>
+               </div>
+               <div class="col col-8 offset-2 my-4 ">
+                    <form>
+                        <div class="form-row">
+                            <div class="col-md-6 mb-3">
+                              <label for="faculty-id">Faculty Id</label>
+                              <input type="text" class="form-control" id="faculty-id" placeholder="Faculty Id" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-md-6 mb-3">
+                              <label for="faculty-password">Password</label>
+                              <div class="password-input">
+                                <input type="password" class="form-control col-10" id="faculty-password" placeholder="Password" required>
+                                <em class="col-2 far fa-eye mt-2"></em>
+                              </div>
+                            </div>
+                        </div>
+                        
+                    </form>
+
+               </div>
+               <div class="col-3">
+                    <button class="btn btn-lg login-button">Log In</button>
+                </div>
+           </div>
+
+        </div>
+        <div class="container about-us">
+            <div class="row">
+                <div class="col-8">
+                    Name - Mrinal Manna
+                    <a href="https://www.linkedin.com/in/avik-tarafdar-a40b171a1/" target="_blank">Linkedin</a>
+                </div>
+                <div class="col-8">
+                    Name - Omeshwar choudhuri
+                    <a href="https://www.linkedin.com/in/avik-tarafdar-a40b171a1/" target="_blank">Linkedin</a>
+                </div>
+                <div class="col-8">
+                    Name - Avik Tarafdar
+                    <a href="https://www.linkedin.com/in/avik-tarafdar-a40b171a1/" target="_blank">Linkedin</a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col col-lg-5 col-sm-8 feedback-form">
+                    <h2 class="lead my-3"><em class="underline">Contact</em> Us / Suggest your kind Feedback</h2>
+                    <form>
+                        <div class="form-row">
+                            <div class="col-12 mb-3">
+                                <label for="name">
+                                    <em class="important">*</em>Name
+                                </label>
+                              <input type="text" class="form-control" id="name" placeholder="Name" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-12 mb-3">
+                              <label for="department">Department</label>
+                              <div class="password-input">
+                                <input type="password" class="form-control" id="department" placeholder="Department">
+                              </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-12 mb-3">
+                                <label for="email">
+                                    <em class="important">*</em>Email Id
+                                </label>
+                              <input type="email" class="form-control" id="email" placeholder="Name" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-12 mb-3">
+                              <label for="message">
+                                <em class="important">*</em>Message
+                                </label>
+                              <div class="password-input">
+                                <textarea type="password" class="form-control" id="message" placeholder="Enter your Message" required></textarea>
+                              </div>
+                            </div>
+                        </div>     
+                        <button class="btn btn-dark btn-lg">Submit</button> 
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+
+        <footer class="bg-light">
+            <hr>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3 offset-lg-1 col-sm-5 offset-sm-1 lead">
+                        <h5>Quick Links</h5>
+                        <ul class="list-unstyled">
+                            <li>Home</li>
+                            <li>About</li>
+                            <li>Pricing</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 offset-lg-1 col-sm-5 offset-sm-1 lead">
+                        <h5>Company</h5>
+                        <ul class="list-unstyled">
+                            <li>Help & Contact</li>
+                            <li>Teams</li>
+                            <li>Articles</li>
+                            <li>Help & Contact</li>
+                            <li>The Nugget</li>
+                            <li>Subscription FAQs</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 offset-lg-1 col-sm-5 offset-sm-1  lead">
+                        <h5>Categories</h5>
+                        <ul class="list-unstyled">
+                            <li>New</li>
+                            <li>Popular</li>
+                            <li>business & economics</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 offset-md-5 col-6 offset-4 mt-3">
+                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+                <hr>
+                <div class="row justify-content-center">
+                    <div class="col-auto">2022,CSE DEPT RKMVM ALL &copy; RESERVED.</div>
+                </div>
+            </div>
+        </footer>
+        <script src=./index.js></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>  
+</html>

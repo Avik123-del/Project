@@ -1,0 +1,72 @@
+.login-form,.feedback-form{
+    border:solid 2px rgb(101, 101, 102);
+    padding:2em;
+    border-radius: 5px;
+    box-shadow: -2px 2px 5px rgb(143, 142, 145);
+    margin-top:90px;
+}
+
+.fa-eye,.fa-eye-slash{
+    font-size:150%; 
+    color: rgb(83, 82, 82);  
+}
+
+.form-control{
+    background-image:linear-gradient(to left,rgba(194, 231, 247, 0.356),rgba(172, 212, 250, 0.562));
+    border-radius:2px;
+}
+
+.form-control:focus{
+    background-image: none;
+}
+
+
+.navbar{
+    border-bottom:1px solid rgb(167, 165, 165);
+    box-shadow: black 1px 1px 5px;
+}
+
+.hover-effect:hover{
+    background-color: rgb(248, 221, 186);
+    border-radius: 25px;;
+}
+
+.login-button{
+    border:solid 3px rgb(23, 140, 236);
+    background-color: rgb(45, 175, 226);
+    color:floralwhite;
+}
+
+
+.password-input{
+    display: flex;
+}
+
+.important{
+    color: rgb(223, 30, 30);
+    font-size: 150%;
+    font-weight: bold;
+}
+
+
+textarea{
+    height:150px;
+}
+
+
+.fab{
+    color:floralwhite;
+    background-color:rgb(27, 92, 212);
+    font-size:30px;
+    padding:10px;
+    border-radius:30px;
+    border:solid 2px rgb(27, 92, 212);
+}
+.fab:hover,.fa-chevron-right:hover,.fa-chevron-left:hover{
+    color:rgb(27, 92, 212);
+    background-color:floralwhite;
+}
+
+.underline{
+    border-bottom:5px solid rgb(52, 169, 236);
+}
